@@ -1,0 +1,74 @@
+.features {
+  background: url("../../image/Pen_holder.png") left 10% top  no-repeat,
+              url("../../image/Earphones.png") right 14% top -2% no-repeat,
+              
+             
+              url("../../image/Coffee_Cup.png") right 10% bottom no-repeat;
+  padding: 130px 0 180px 0;
+}
+
+.features__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.features__content-name {
+  font-family: 'Exo';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 49.97px;
+  text-transform: uppercase;
+  letter-spacing: 3.2;
+  color: #ff6d6d;
+}
+
+.features__content-title {
+  color: #282828;
+  font-family: 'Exo';
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 49.97px;
+  letter-spacing: 1.6px;
+  padding-bottom: 90px;
+}
+
+.features__list {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.features__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.features__img {
+  padding-bottom: 30px;
+}
+
+.features__icon {
+  width: 65px;
+  height: 65px;
+}
+
+.features__title {
+  padding-bottom: 20px;
+  color: #282828;
+  font-family: 'Exo';
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 49.97px;
+  letter-spacing: 0.88px;
+}
+
+.features__desc {
+  opacity: 0.66;
+  color: #282828;
+  font-family: 'Exo';
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 26px;
+}

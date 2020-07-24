@@ -1,0 +1,61 @@
+.design {
+  display: flex;
+}
+
+.design__container  {
+  display: flex;
+}
+
+.design__content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 63%;
+  max-height: 720px;
+  padding: 120px 0;
+  margin-right: 67px;
+}
+
+.design__content-name {
+  color: #ff6d6d;
+  font-family: 'Exo';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 50px;
+  text-transform: uppercase;
+  letter-spacing: 3.2px;
+  padding: 15px 0;
+}
+
+.design__content-title {
+  color: #282828;
+  font-family: 'Exo';
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 50px;
+  letter-spacing: 1.6px;
+  padding: 45px 0;
+}
+
+.design__content-dott {
+  color: #ff6d6d;
+  letter-spacing: 1.6px;
+}
+
+.design__content-desc {
+  opacity: 0.66;
+  color: #282828;
+  font-family: 'Exo';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.64px;
+}
+
+.design__content-color  {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 30%;
+  height: 750px;
+  background-color: #ff6d6d;
+}

@@ -1,0 +1,56 @@
+
+
+.lap__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lap__img {
+  max-width: 55%;
+  height: 347px;
+  position: relative;
+  top: 132px;
+}
+
+.lap__img-icon {
+  width: 510px;
+  height: 349px;
+}
+
+.lap__content {
+  max-width: 440px;
+  padding: 140px 0 145px 0;
+}
+
+.lap__content-name  {
+  color: #ff6d6d;
+  font-family: 'Exo';
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 50px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.lap__content-title {
+  color: #282828;
+  font-family: 'Exo';
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 50px;
+  letter-spacing: 1.6px;
+  margin-bottom: 36px;
+}
+
+.lap__content-dott {
+  color: #ff6d6d;
+  letter-spacing: 1.6px;
+}
+
+.lap__content-desc {
+  opacity: 0.66;
+  color: #282828;
+  font-family: 'Exo';
+  font-weight: 500;
+  line-height: 26px;
+}
